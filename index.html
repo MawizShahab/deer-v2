@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEER.SK</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./js/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./js/owl.theme.default.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="body-main-container">
+      <div class="main-container">
+        <div class="header-main-container border__bottom">
+          <div class="header-container container-max-width">
+            <header class="border__right border__bottom border__left">
+              <div class="navigation-container d__flex">
+                <div class="logo">
+                  <a class="d__flex" href="#">
+                    <img src="./images/icons/logo.svg" alt="logo" />
+                    <span class="body__text fs__30 fw__400 bt__dark"
+                      >Deer.sk</span
+                    >
+                  </a>
+                </div>
+                <div class="navigation">
+                  <nav id="navbar">
+                    <ul class="list-item d__flex">
+                      <li class="item">
+                        <a class="d__flex" href="#"
+                          ><span class="body__text fs__18 fw__400 bt__dark"
+                            >Domov</span
+                          >
+                        </a>
+                      </li>
+                      <li class="item">
+                        <a class="d__flex" href="#onas"
+                          ><span class="body__text fs__18 fw__400 bt__dark">
+                            O nás</span
+                          ></a
+                        >
+                      </li>
+                      <li class="item">
+                        <a class="d__flex" href="#kontakt"
+                          ><span class="body__text fs__18 fw__400 bt__dark"
+                            >Kontakt</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <div
+              class="hero-main-container body-spacing border__left border__right"
+            >
+              <div class="hero-container grid grid--1x2">
+                <div class="hero-content d__flex" data-aos="fade-right">
+                  <div class="stars-container d__flex">
+                    <img src="./images/icons/stars.svg" alt="stars" />
+                    <span class="star-text body__text fs__18 fw__300 bt__light"
+                      >Hodnotenie
+                      <a
+                        href="https://www.google.com/"
+                        class="star-text body__text fs__18 fw__300 bt__light text__underline"
+                        >na Google.com</a
+                      ></span
+                    >
+                  </div>
+                  <div class="title">
+                    <span class="body__text fs__60 fw__400 bt__dark"
+                      >Budujeme
+                      <span
+                        style="padding: 0.5rem 2rem"
+                        class="highlighted"
+                        id="dynamic-text"
+                        >UI/UX návrhy</span
+                      >
+                      ktoré zanechajú stopu.</span
+                    >
+                    <img
+                      style="margin-left: 0.5rem"
+                      src="./images/icons/shoes.svg"
+                      alt="shoes"
+                    />
+                  </div>
+                  <div class="subtitle">
+                    <span class="body__text fs__30 fw__300 bt__dark"
+                      >Navrhujeme a tvoríme weby pre malé a stredné firmy, ktoré
+                      chcú rásť, posilniť svoju značku a zvýšiť svoju digitálnu
+                      viditeľnosť.</span
+                    >
+                  </div>
+                  <div class="btn-container d__flex top-margin">
+                    <a
+                      href="#kontakt"
+                      class="primary d__flex btn btn__primary br__72"
+                    >
+                      <div class="profile__wrapper">
+                        <img
+                          class="profile__img"
+                          src="./images/icons/profile_mini.svg"
+                          alt="mini-profile"
+                        />
+                        <span class="status__dot"></span>
+                      </div>
+
+                      <span class="link__text fs__18 fw__600 bt__white"
+                        >Naplánovať konzultáciu s Arianom</span
+                      >
+                    </a>
+                    <a
+                      href="#referencie"
+                      class="secondary d__flex btn btn__secondary br__72"
+                      ><span class="body__text fs__18 fw__500 bt__dark"
+                        >Referencie</span
+                      >
+                    </a>
+                  </div>
+                  <div class="go-to-container top-margin">
+                    <a class="d__flex" href="#onas">
+                      <img
+                        style="margin-top: 0.5rem"
+                        src="./images/icons/chevron-down.svg"
+                        alt="chevron-down"
+                      />
+                      <span class="body__text fs__18 fw__400 bt__gray-light"
+                        >Spoznajte nás bližšie :)</span
+                      >
+                    </a>
+                  </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                  <img src="./images/hero.png" alt="hero" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-us-main-container border__bottom">
+          <div
+            class="about-us-container border__left border__right container-max-width"
+          >
+            <div class="about-us body-spacing" id="onas" data-aos="fade-up">
+              <div class="partners d__flex">
+                <img src="./images/icons/kais.png" alt="kais" class="partner" />
+                <img
+                  src="./images/icons/t-augustin.png"
+                  alt="t-augustin"
+                  class="partner"
+                />
+                <img
+                  src="./images/icons/inglis.svg"
+                  alt="inglis"
+                  class="partner"
+                /><img
+                  src="./images/icons/artport.svg"
+                  alt="artport"
+                  class="partner"
+                /><img
+                  src="./images/icons/partner-3.svg"
+                  alt="partner-3"
+                  class="partner"
+                /><img
+                  src="./images/icons/partner-4.svg"
+                  alt="partner-4"
+                  class="partner"
+                /><img
+                  src="./images/icons/partner-5.svg"
+                  alt="partner-5"
+                  class="partner"
+                />
+                <img
+                  src="./images/icons/out-play.png"
+                  alt="out-play"
+                  class="partner"
+                />
+              </div>
+              <div class="partner-wrapper d__flex">
+                <div class="partner-content-container d__flex">
+                  <span class="body-text fs__30 fw__300 bt__gray__dark"
+                    >O nás</span
+                  >
+                  <span class="body-text fs__50 fw__400 bt__dark"
+                    >Krátke predstavenie</span
+                  >
+                </div>
+                <div class="partner-scores d__flex">
+                  <div class="score d__flex">
+                    <span class="body__text fs__42 fw__500 bt__dark">10+</span
+                    ><span class="body__text fs__16 fw__300 bt__dark"
+                      >Spokojných klientov</span
+                    >
+                  </div>
+                  <div class="seperator">
+                    <img src="./images/icons/Vector.svg" alt="Vector" />
+                  </div>
+                  <div class="score d__flex">
+                    <span class="body__text fs__42 fw__500 bt__dark"
+                      >5 rokov</span
+                    ><span class="body__text fs__16 fw__300 bt__dark"
+                      >Sa pohybujeme v obore</span
+                    >
+                  </div>
+                  <div class="seperator">
+                    <img src="./images/icons/Vector.svg" alt="Vector" />
+                  </div>
+                  <div class="score d__flex">
+                    <span class="body__text fs__42 fw__500 bt__dark"
+                      >300,000+</span
+                    ><span class="body__text fs__16 fw__300 bt__dark"
+                      >Dosah najúspešnejších kampaní</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="our-team-wrapper body-spacing">
+              <div class="our-team-container grid grid--1x2">
+                <div class="our-team-hero-container" data-aos="fade-right">
+                  <img src="./images/our-team-deer.png" alt="deer" />
+                </div>
+                <div class="our-team-desc d__flex" data-aos="fade-left">
+                  <span class="body-text fs__30 fw__300 bt__medium"
+                    >Sme tím študentov stredných škôl a mladých programátorov.
+                    Prinášame najnovšie trendy, flexibilitu a cit pre detail.
+                    Tvoríme weby, ktoré vyzerajú skvelo, prinášajú výsledky a
+                    majú férovú cenu.
+                  </span>
+                  <span class="body-text fs__30 fw__300 bt__medium"
+                    >Vytvoríme pre vás web, ktorý bude prostredníctvom dizajnu a
+                    obsahu efektívne prezentovať silné stránky a hodnoty vášho
+                    produktu. Bude budovať dôveru a viesť návštevníka presne
+                    tam, kam budete potrebovať.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-offer-main-container border__bottom" id="our-offer">
+          <div
+            class="our-offer-container container-max-width border__left border__right"
+          >
+            <div class="offer-container d__flex body-spacing">
+              <span class="body-text fs__30 fw__300 bt__gray__dark"
+                >Služby</span
+              >
+              <span class="body-text fs__50 fw__400 bt__dark"
+                >Čo vám vieme ponúknuť?</span
+              >
+              <div class="our-offer-cards-container" data-aos="fade-up-left">
+                <div class="our-offer-cards grid grid--1x2">
+                  <div class="offer-card d__flex">
+                    <div class="card__image">
+                      <img src="./images/our-offer-1.svg" alt="our-offer-1" />
+                    </div>
+                    <div class="card__content d__flex">
+                      <div class="card-label-container d__flex">
+                        <span
+                          class="card__label body__text fs__16 fw__300 bt__black"
+                          >UI/UX NÁVRH</span
+                        >
+                        <span
+                          class="card__label body__text fs__16 fw__300 bt__black"
+                          >KOMPLETNÝ VÝVOJ</span
+                        >
+                      </div>
+                      <span
+                        class="card__title body-text fs__30 fw__400 bt__dark"
+                        >Tvorba webov</span
+                      >
+                      <span
+                        class="card__content body-text fs__18 fw__300 bt__black"
+                        >Vytvoríme profesionálny web aj s obsahom, ktoré zaujmú
+                        a odlíšia vás od ostatných.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="offer-card d__flex">
+                    <div class="card__image">
+                      <img src="./images/our-offer-2.svg" alt="our-offer-2" />
+                    </div>
+                    <div class="card__content d__flex">
+                      <div class="card-label-container d__flex">
+                        <span
+                          class="card__label body__text fs__16 fw__300 bt__black"
+                          >OBSAH</span
+                        >
+                      </div>
+                      <span
+                        class="card__title body-text fs__30 fw__400 bt__dark"
+                        >Správa sociálnych sietí</span
+                      >
+                      <span
+                        class="card__content body-text fs__18 fw__300 bt__black"
+                        >Postaráme sa o správu Vášho profilu na sociálnych
+                        sieťach aj o tvorbu obsahu preň.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="offer-card d__flex">
+                    <div class="card__image">
+                      <img src="./images/our-offer-3.2.svg" alt="our-offer-3" />
+                    </div>
+                    <div class="card__content d__flex">
+                      <div class="card-label-container d__flex">
+                        <span
+                          class="card__label body__text fs__16 fw__300 bt__black"
+                          >VIZUÁLNÁ IDENTITA</span
+                        >
+                        <span
+                          class="card__label body__text fs__16 fw__300 bt__black"
+                          >STRATEGIA</span
+                        >
+                      </div>
+                      <span
+                        class="card__title body-text fs__30 fw__400 bt__dark"
+                        >Budovanie značky - Branding</span
+                      >
+                      <span
+                        class="card__content body-text fs__18 fw__300 bt__black"
+                        >Odlíšenie vašej značky, odovzdanie vašich hodnôt a
+                        vyvolanie požadovaného pocitu u zákazníka.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="offer-card d__flex">
+                    <div class="card__image">
+                      <img src="./images/our-offer-4.svg" alt="our-offer-4" />
+                    </div>
+                    <div class="card__content d__flex">
+                      <div class="card-label-container d__flex">
+                        <span
+                          class="card__label body__text fs__16 fw__300 bt__black"
+                          >SEO</span
+                        >
+                        <span
+                          class="card__label body__text fs__16 fw__300 bt__black"
+                          >GOOGLE ADS</span
+                        >
+                        <span
+                          class="card__label body__text fs__16 fw__300 bt__black"
+                          >META ADS</span
+                        >
+                      </div>
+                      <span
+                        class="card__title body-text fs__30 fw__400 bt__dark"
+                        >Performance marketing</span
+                      >
+                      <span
+                        class="card__content body-text fs__18 fw__300 bt__black"
+                        >Optimalizujeme váš web pre vyhľadávače a vytvoríme
+                        kreatívne kampane cez Google alebo Meta Ads.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="e__title text__center">
+                <span class="body-text fs__30 fw__400 bt__dark"
+                  >Naše priority pri tvorbe webov</span
+                >
+              </div>
+              <div class="our-priorities-container" data-aos="fade-up">
+                <div class="our-priorities grid grid--1x3">
+                  <div class="priorities d__flex">
+                    <img
+                      src="./images/our-priorities-1.svg"
+                      alt="our-priorities-1"
+                    />
+                    <span class="card__title body-text fs__30 fw__400 bt__dark"
+                      >Dizajn, ktorý rezonuje s vami aj s vašou značkou.</span
+                    >
+                    <span
+                      class="card__content body-text fs__18 fw__300 bt__black"
+                      >Vytvárame vizuály, ktoré oslovia a zapadnú do identity
+                      vašej značky.</span
+                    >
+                  </div>
+                  <div class="priorities d__flex">
+                    <img
+                      src="./images/our-priorities-2.svg"
+                      alt="our-priorities-2"
+                    />
+                    <span class="card__title body-text fs__30 fw__400 bt__dark"
+                      >Rozhodnutia pri tvorbe obsahu, ktoré vedú k akcii.</span
+                    >
+                    <span
+                      class="card__content body-text fs__18 fw__300 bt__black"
+                      >Tvoríme obsah, ktorý návštevníka zaujme, neprehltí a
+                      motivuje k ďalšiemu kroku.</span
+                    >
+                  </div>
+                  <div class="priorities d__flex">
+                    <img
+                      src="./images/our-priorities-3.svg"
+                      alt="our-priorities-3"
+                    />
+                    <span class="card__title body-text fs__30 fw__400 bt__dark"
+                      >Technická optimalizácia a prístupnosť užívateľov</span
+                    >
+                    <span
+                      class="card__content body-text fs__18 fw__300 bt__black"
+                      >Zaisťujeme, aby váš web bol funkčný a jednoducho
+                      ovládateľný pre každého.</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-references-main-container border__bottom">
+          <div
+            class="our-references-container container-max-width"
+            id="referencie"
+          >
+            <div class="references-container d__flex body-spacing">
+              <span
+                class="body-text fs__30 fw__300 bt__gray__dark"
+                data-aos="fade-up"
+                >Referencie</span
+              >
+              <span class="body-text fs__50 fw__400 bt__dark" data-aos="fade-up"
+                >Čo o nás hovoria naši klienti?</span
+              >
+              <div class="reference-card-container">
+                <div class="reference-card owl-carousel owl-theme">
+                  <div class="reference d__flex">
+                    <span class="body-text fs__24 fw__400 bt__medium">
+                      Priznám sa, že som na začiatku nemala úplne jasnú
+                      predstavu, do čoho idem, ale som nesmierne šťastná, že som
+                      mala tú česť stretnúť tak šikovného, trpezlivého mladého
+                      muža, ktorý s veľkým porozumením počúval moje nápady a
+                      pomohol ich zmeniť na krásnu realitu.
+                    </span>
+                    <span
+                      class="highlighted-reference body-text fs__24 fw__400 bt__medium"
+                      >Ďakujem za Vašu skvelú prácu a už teraz sa teším na
+                      ďalšiu spoluprácu!</span
+                    >
+                    <div class="reference-details-wrapper d__flex top-margin">
+                      <img src="./images/icons/artport.svg" alt="artport" />
+                      <div class="reference-details d__flex">
+                        <span class="body-text fs__20 fw__400 bt__gray-medium"
+                          >Mgr. art. Slávka Semancová</span
+                        ><span class="body-text fs__20 fw__400 bt__purple-light"
+                          >Founder ARTPORT.SK</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reference d__flex">
+                    <span class="body-text fs__24 fw__400 bt__medium">
+                      Spolupráce s Deer.sk byla nejlepší volba, kterou jsme
+                      mohli v rámci propagace našeho serveru udělat. Postupný
+                      zvýšení počtu hráčů na serveru rapidně stoupal a my jsme
+                      nemohli být víc, než spokojeni. Vizuálně příjemné a
+                      uživatelsky přívětivý design od Honzíka.
+                    </span>
+                    <span
+                      class="highlighted-reference body-text fs__24 fw__400 bt__medium"
+                      >I když své dobré zkušenosti mohu sdílet pouze s určitým
+                      členem Deer.sk (Honza), tak i tak bych si znovu vybral
+                      zrovna Deer.sk</span
+                    >
+                    <div class="reference-details-wrapper d__flex top-margin">
+                      <img src="./images/icons/partner-3.svg" alt="partner-3" />
+                      <div class="reference-details d__flex">
+                        <span class="body-text fs__20 fw__400 bt__gray-medium"
+                          >Tomáš Michalec</span
+                        ><span class="body-text fs__20 fw__400 bt__purple-light"
+                          >COO DiaWorlds.eu</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reference d__flex">
+                    <span class="body-text fs__24 fw__400 bt__medium">
+                      Chci poděkovat Arianovi za pomoc s nastavením rezervačního
+                      systému na mé stránce. Velmi si vážím jeho přístupu – byl
+                      trpělivý, ochotný a všechno mi vysvětlil tak, že jsem se v
+                      tom konečně zorientovala.
+                    </span>
+                    <span
+                      class="highlighted-reference body-text fs__24 fw__400 bt__medium"
+                      >Je vidět, že ho práce baví a záleží mu na tom, aby byl
+                      člověk spokojen. Můžu ho jen doporučit.</span
+                    >
+                    <div class="reference-details-wrapper d__flex top-margin">
+                      <img src="./images/icons/image 294.png" alt="katarina" />
+                      <div class="reference-details d__flex">
+                        <span class="body-text fs__20 fw__400 bt__gray-medium"
+                          >Katarína Urbanovská</span
+                        ><span class="body-text fs__20 fw__400 bt__purple-light"
+                          >Founder SoniCube Europe</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reference d__flex">
+                    <span class="body-text fs__24 fw__400 bt__medium">
+                      Potreboval som technickú úpravu webstránky, ktorú mi Arian
+                      nastavil podľa zadania.
+                    </span>
+                    <span
+                      class="highlighted-reference body-text fs__24 fw__400 bt__medium"
+                      >Ďakujem za ochotu, konzultáciu a dobre nadstavenú cenu za
+                      službu.</span
+                    >
+                    <div class="reference-details-wrapper d__flex top-margin">
+                      <img
+                        src="./images/icons/t-augustin.png"
+                        alt="t-augustin"
+                      />
+                      <div class="reference-details d__flex">
+                        <span class="body-text fs__20 fw__400 bt__gray-medium"
+                          >Mgr. art. Tomáš Augustín</span
+                        ><span class="body-text fs__20 fw__400 bt__purple-light"
+                          >Founder ARCHITEKTONIZER</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-us-main-container border__bottom">
+          <div
+            class="contact-us-container container-max-width border__left border__right"
+          >
+            <div class="contact-us body-spacing grid grid--1x2" id="kontakt">
+              <div class="contact-us-content d__flex" data-aos="fade-right">
+                <span class="body-text fs__30 fw__300 bt__gray__dark"
+                  >Kontakt</span
+                >
+                <span class="body-text fs__50 fw__400 bt__dark"
+                  >Napíšte nám alebo zavolajte. <br />
+                  Sme tu pre vás.</span
+                >
+                <span class="body__text fs__24 fw__400 bt__medium"
+                  >Nezáväzne nám napíšte váš nápad na projekt alebo zavolajte.
+                  Spoločne si pripravíme podklady, navrhneme postup a vyriešime
+                  všetko potrebné.</span
+                >
+                <div class="contact-us-details-container">
+                  <div class="contact-us-details d__flex">
+                    <div class="cu-detail d__flex">
+                      <span
+                        class="cu__label body-text fs__30 fw__400 bt__label"
+                      >
+                        E-Mailová adresa
+                      </span>
+                      <div class="contact custom">
+                        <a
+                          class="body-text fs__50 fw__400 bt__dark"
+                          href="mailto:hello@deer.sk"
+                          >hello@deer.sk</a
+                        >
+                      </div>
+                    </div>
+                    <div class="cu-detail-wrapper d__flex">
+                      <div class="cu-detail d__flex">
+                        <span
+                          class="cu__label body-text fs__30 fw__400 bt__label"
+                        >
+                          Telefonné číslo
+                        </span>
+                        <div class="contact">
+                          <a
+                            class="body-text fs__50 fw__400 bt__dark"
+                            href="tel:+421944148081"
+                            >+421 944 148 081</a
+                          >
+                        </div>
+                      </div>
+                      <div class="cu-link">
+                        <a
+                          class="body-text text__underline fs__30 fw__400 bt__dark"
+                          href="https://cal.com/deer.sk/uvod?overlayCalendar=true"
+                          target="_blank"
+                          >Naplánovať hovor <br />
+                          cez calendly
+                          <span
+                            ><img
+                              src="./images/icons/long-arrow.svg"
+                              alt="long-arrow" /></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-us-hero" data-aos="fade-left">
+                <div class="cu-hero d__flex">
+                  <img src="./images/profile.png" alt="contact-us-hero" />
+                  <!-- <div class="profile-status-dot"></div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-messege-container">
+          <div class="messege-container body-spacing container-max-width">
+            <span class="body-text fs__50 fw__400 bt__dark"
+              >Poďme spoločne nájsť <br />
+              elegantné riešenie.</span
+            >
+          </div>
+        </div>
+        <div class="footer-main-container">
+          <div class="footer-container body-spacing container-max-width">
+            <footer class="grid grid--1x2">
+              <div class="footer-content d__flex" data-aos="fade-right">
+                <a href="#" class="footer-logo d__flex">
+                  <img src="./images/icons/logo.svg" alt="footer-logo" />
+                  <span class="body-text fs__30 fw__400 bt__dark">Deer.sk</span>
+                </a>
+                <span class="body-text fs__18 fw__300 footer__title__t"
+                  >Webová agentúra zameraná na dizajn, vývoj a správu
+                  webov.</span
+                >
+                <div class="f-content-wrapper d__flex">
+                  <span class="body-text fs__18 fw__300 bt__label"
+                    >Zaujíma vás, ako by sme mohli vylepšiť kvalitu aj <br />
+                    vašej digitálnej prezentácie? Ozvite sa nám.</span
+                  >
+                  <div class="contact-links d__flex">
+                    <a href="#"
+                      ><img
+                        src="./images/icons/email-round.svg"
+                        alt="email-round"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src="./images/icons/telephone-round.svg"
+                        alt="telephone-round"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-links-container d__flex" data-aos="fade-left">
+                <div class="footer-links d__flex">
+                  <div class="f-label">
+                    <span class="body-text fs__20 fw__400 footer__title__t"
+                      >Navigácia</span
+                    >
+                  </div>
+                  <div class="f-links d__flex">
+                    <a class="body-text fs__16 fw__300 bt__label" href="#"
+                      >Domov</a
+                    ><a
+                      class="body-text fs__16 fw__300 bt__label"
+                      href="#our-offer"
+                      >Priebeh spolupráce</a
+                    ><a class="body-text fs__16 fw__300 bt__label" href="#onas"
+                      >O nás</a
+                    ><a
+                      class="body-text fs__16 fw__300 bt__label"
+                      href="#kontakt"
+                      >Kontakt
+                    </a>
+                  </div>
+                </div>
+                <div class="footer-links d__flex">
+                  <div class="f-label">
+                    <span class="body-text fs__20 fw__400 footer__title__t"
+                      >Kontakt</span
+                    >
+                  </div>
+                  <div class="f-links d__flex f-icons">
+                    <a href="tel:+421944148081"
+                      ><img
+                        src="./images/icons/telephone.svg"
+                        alt="telephone"
+                      />
+                      <span class="body-text fs__16 fw__300 bt__label"
+                        >+421 944 148 081</span
+                      > </a
+                    ><a href="mailto:hello@deer.sk"
+                      ><img src="./images/icons/email.svg" alt="email" /><span
+                        class="body-text fs__16 fw__300 bt__label"
+                        >hello@deer.sk</span
+                      >
+                    </a>
+                  </div>
+                </div>
+                <div class="go-to-top-container">
+                  <a href="#" class="go-to-top d__flex">
+                    <img src="./images/icons/go-to.svg" alt="go-to" />
+                    <span class="body-text fs__16 fw__400 footer__title__t"
+                      >Vrátiť sa hore</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="footer-last-container container-max-width">
+          <div class="footer-last d__flex body-spacing">
+            <div class="fl-logo">
+              <img src="./images/icons/footer-icon.svg" alt="footer-icon" />
+            </div>
+            <div class="fl-content d__flex">
+              <span class="deer__text body-text fs__50 fw__400 bt__dark"
+                >Deer.sk</span
+              >
+              <span class="body-text fs__18 fw__400 bt__dark"
+                >S nami dobehnete najďalej</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="./js/custom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
+      // AOS.init({
+      //    offset: 200,
+      //    duration: 600,
+      //    easing: 'ease-in-sine',
+      //    delay: 100,
+      //  });
+    </script>
+  </body>
+</html>
