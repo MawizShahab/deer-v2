@@ -1265,7 +1265,8 @@ button.owl-next::after {
     font-size: 3rem;
   }
 
-  .partners {
+  .partners,
+  .hero-container .hero-image {
     display: none;
   }
 }
